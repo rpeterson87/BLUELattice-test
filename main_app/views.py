@@ -6,7 +6,7 @@ from django.views.generic.base import TemplateView
 
 
 # Create your views here.
-
+#  this is the home route
 class Home(TemplateView):
     template_name = "home.html"
     # def get(self, request):
